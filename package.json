@@ -1,22 +1,22 @@
 {
-  "name": "webrtc-video-conference-tutorial",
+  "name": "nodejsApp",
   "version": "1.0.0",
   "description": "This tutorial is divided in three versions:",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agilityfeat/webrtc-video-conference-tutorial.git"
+    "url": "git+https://github.com/tahir2070/alletutor.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/agilityfeat/webrtc-video-conference-tutorial/issues"
+    "url": "https://github.com/tahir2070/alletutor/issues"
   },
-  "homepage": "https://github.com/agilityfeat/webrtc-video-conference-tutorial#readme",
+  "homepage": "https://github.com/tahir2070/alletutor",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
