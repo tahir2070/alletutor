@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Document</title>
+
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/png">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- Fontawesome css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Plugins Css  -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <!-- Utilities css -->
+    <link rel="stylesheet" href="assets/css/Util.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- jquery UI CSS -->
+    <link rel="stylesheet" href="assets/js/vendor/jquery-ui.min.css">
+
+
+</head>
+
+<body>
+    <div class="off-canvas-menu-wrap">
+        <ul class="off-canvas-menu">
+            <li class="active"><a href="#">Multi Choose</a></li>
+            <li><a href="#">Note</a></li>
+        </ul>
+        <div class="cls-off-canvas-menu">
+            <i class="fal fa-times"></i>
+        </div>
+    </div>
+    <div class="off-canvas-overlay"></div>
+
+    <!-- Modal for Cloud Markup Start  -->
+    <div class="modal fade" id="ex1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered c-modal" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-content-wrapper">
+                        <form action="" class="modal-fm-style-one">
+                            <div class="twin-flex-title">
+                                <a href="#"><img src="assets/img/cloud.svg" alt=""></a>
+                                <label class="up-btn">
+                                    <input type="file">
+                                    Upload
+                                </label>
+                            </div>
+                            <div class="student-table-wrap up-table">
+                                <table class="table student-table">
+                                    <thead>
+                                        <tr>
+                                            <th>File Name</th>
+                                            <th>Create Date</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>File xyz</td>
+                                            <td>30/06/2020</td>
+                                            <td><button class="trash-btn"><img src="assets/img/trash.svg"
+                                                        alt=""></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>File xyz</td>
+                                            <td>30/06/2020</td>
+                                            <td><button class="trash-btn"><img src="assets/img/trash.svg"
+                                                        alt=""></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>File xyz</td>
+                                            <td>30/06/2020</td>
+                                            <td><button class="trash-btn"><img src="assets/img/trash.svg"
+                                                        alt=""></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>File xyz</td>
+                                            <td>30/06/2020</td>
+                                            <td><button class="trash-btn"><img src="assets/img/trash.svg"
+                                                        alt=""></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>File xyz</td>
+                                            <td>30/06/2020</td>
+                                            <td><button class="trash-btn"><img src="assets/img/trash.svg"
+                                                        alt=""></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>File xyz</td>
+                                            <td>30/06/2020</td>
+                                            <td><button class="trash-btn"><img src="assets/img/trash.svg"
+                                                        alt=""></button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Cloud Markup End -->
+
+    <!-- Modal for Cloud Markup Start  -->
+    <div class="modal fade" id="ex2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered c-modal" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-content-wrapper">
+                        <form action="" class="modal-fm-style-one">
+                            <div class="twin-flex-title">
+                                <h4>Homework</h4>
+                                </label>
+                            </div>
+                            <div class="input-inside">
+                                <label for="">Title</label>
+                                <input type="text">
+                            </div>
+                            <div class="deadline-time">
+                                <label for="">Deadline</label>
+                                <div class="sl-wrapper">
+                                    <select name="" id="" class="sl-select">
+                                        <option value="">7 days</option>
+                                        <option value="">5 days</option>
+                                        <option value="">3 days</option>
+                                    </select>
+                                </div>
+                                <div class="sl-wrapper">
+                                    <select name="" id="" class="sl-select">
+                                        <option value="">7 hours</option>
+                                        <option value="">5 hours</option>
+                                        <option value="">3 hours</option>
+                                    </select>
+                                </div>
+                            </div> <!-- ./deadline-time -->
+
+                            <div class="input-inside">
+                                <label for="">Description</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="twin-fm-btn">
+                                <button>Upload</button>
+                                <button>Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Cloud Markup End -->
+
+    <!-- Modal for Room Joining  -->
+    <div class="modal fade" data-keyboard="false" data-backdrop="static" id="join_room_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-content-wrapper">
+                        <form action="" class="modal-fm-style-one room-join-form">
+                            <div class="text-center" style="margin-top: 100px;">
+                                <h2 class="text-center"><i class="fal fa-video"></i> Join Class Room</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <div class="input-inside">
+                                        <label for=""><i class="fal fa-user"></i> Your Name</label>
+                                        <input class="form-control form-control-lg" name="fullname" type="text" placeholder="Enter your name" required />
+                                    </div>
+                                    <div class="input-inside">
+                                        <label for=""><i class="fal fa-key"></i> Room Key</label>
+                                        <input class="form-control form-control-lg" name="room_key" type="text" placeholder="Enter room key" required />
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg"><i class="fal fa-video"></i> Join Room</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Room Joining -->
+
+    <!-- Modal for Color Picker  -->
+    <div class="modal fade" id="color_picker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered c-modal" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-content-wrapper">
+                        <form action="" class="modal-fm-style-one color-picker-form">
+                            <div class="twin-flex-title mb-3">
+                                <h4><i class="fal fa-paint-brush"></i> Choose Color</h4>
+                                </label>
+                            </div>
+                            <div class="color-box">
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="red" value="red"> 
+                                    <label for="red"></label>
+                                </div>
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="yellow" value="yellow">
+                                    <label for="yellow"></label>
+                                </div>
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="white" value="white">
+                                    <label for="white"></label>
+                                </div>
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="black" value="black" selected />
+                                    <label for="black"></label>
+                                </div>
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="green" value="green">
+                                    <label for="green"></label>
+                                </div>
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="blue" value="blue">
+                                    <label for="blue"></label>
+                                </div>
+                                <div class="custom-radio-check">
+                                    <input type="radio" name="color" id="orange" value="orange">
+                                    <label for="orange"></label>
+                                </div>
+                            </div>
+                            <div class="twin-flex-title mb-3">
+                                <h4>Color Selected</h4>
+                                <div class="custom-radio-check selected-color-value">
+                                    <input type="radio" name="selected-color" disabled>
+                                    <label for="black"></label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Color Picker End -->
+
+    <!-- Modal for Color Picker  -->
+    <div class="modal fade" id="shape_picker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered c-modal" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fal fa-times"></i>
+                </button>
+                <div class="modal-body">
+                    <div class="modal-content-wrapper">
+                        <form action="" class="modal-fm-style-one color-picker-form">
+                            <div class="twin-flex-title mb-3">
+                                <h4><i class="fal fa-paint-brush"></i> Select Shape</h4>
+                                </label>
+                            </div>
+                            <div class="color-box">
+                                <div class="custom-radio-shape">
+                                    <input type="radio" name="shape" id="circle" value="circle">
+                                    <label for="circle"><i class="fas fa-circle text-center fa-2x"></i></label>
+                                </div>
+                                <div class="custom-radio-shape">
+                                    <input type="radio" name="shape" id="rectangle" value="rectangle">
+                                    <label for="rectangle"><i class="fas fa-rectangle-landscape text-center fa-2x"></i></label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for Color Picker End -->
+
+    <header class="header-area">
+        <div class="header-flex-wrapper">
+            <div class="header-left">
+                <a href="#" class="logo"><img src="assets/img/logo.svg" alt=""></a>
+                <ul class="choose-list d-none d-xl-flex">
+                    <li class="active"><a href="#">Multi Choose</a></li>
+                    <li><a href="#">Note</a></li>
+                </ul>
+            </div>
+            <div class="header-middle">
+                <button class="rec-btn d-none d-lg-block"><img src="assets/img/frame.svg" alt=""> REC</button>
+                <div class="lesson-title">
+                    <img src="assets/img/lesson-title-bg.png" alt="">
+                    <h2>Class Room</h2>
+                </div>
+                <div class="class-timer d-none d-lg-block">
+                    <input type="text" class="form-control meeting-time-counter" value="00 : 00" readonly />
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="weaving-had">
+                    <a href="#"><img src="assets/img/hand.svg" alt=""></a>
+                </div>
+                <div class="toggle-bar"><i class="fal fa-bars"></i></div>
+                <ul class="user-pf">
+                    <li><a href="#" class="user-design">
+                            <div class="user-img"><img src="assets/img/user.png" alt=""></div> <span
+                                class="user-name"></span> <img src="assets/img/down-angle.svg" alt="">
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="./room/">Rooms</a></li>
+                            <li><a href="#">Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-area">
+        <div class="class-bar-wrapper">
+            <div class="class-bar-inner-wrap video-area-wrapper" id="meetingRoom"></div>
+        </div> <!-- ./class-bar-wrapper -->
+
+        <div class="three-in-grid">
+            <div class="left-action-wrap">
+                <div class="tabContainer">
+                    <nav>
+                        <div class="nav nav-link-wrap" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link" id="tbOne-tab" data-toggle="tab" href="#tbOne" role="tab"
+                                aria-controls="nav-home" aria-selected="true">Group Chat </a>
+                            <button class="forbidden-chat-btn"><i class="fal fa-comment-alt"></i></button>
+                            <a class="nav-item nav-link active show" id="tbTwo-tab" data-toggle="tab" href="#tbTwo"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Student List</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content sm-div" id="nav-tabContent">
+                        <div class="tab-pane fade" id="tbOne" role="tabpanel" aria-labelledby="tbOne-tab">
+                            <div class="tb-content-wrap">
+                                <div class="chatting-wrapper">
+                         
+                                </div>
+                            </div>
+                            <div class="transparent-chat-field">
+                                <form action="" class="class-chat-form" autocomplete="off">
+                                    <div class="d-flex">
+                                        <div class="left-input-field flex-grow-1">
+                                            <span class="emoji">&#128522;</span>
+                                            <span class="emoji-picker">
+                                                <span>&#128522;</span>
+                                                <span>&#129306;</span>
+                                                <span>&#128512;</span>
+                                                <span>&#128513;</span>
+                                                <span>&#128514;</span>
+                                                <span>&#128515;</span>
+                                                <span>&#128516;</span>
+                                                <span>&#128517;</span>
+                                                <span>&#128518;</span>
+                                                <span>&#128519;</span>
+                                                <span>&#128520;</span>
+                                                <span>&#128521;</span>
+                                                <span>&#128523;</span>
+                                                <span>&#128524;</span>
+                                                <span>&#128525;</span>
+                                                <span>&#128526;</span>
+                                                <span>&#128527;</span>
+                                                <span>&#128528;</span>
+                                                <span>&#128529;</span>
+                                                <span>&#128531;</span>
+                                                <span>&#128539;</span>
+                                                <span>&#128540;</span>
+                                                <span>&#128541;</span>
+                                                <span>&#128542;</span>
+                                                <span>&#128543;</span>
+                                                <span>&#128544;</span>
+                                                <span>&#128545;</span>
+                                                <span>&#128546;</span>
+                                                <span>&#128548;</span>
+                                                <span>&#128549;</span>
+                                                <span>&#128551;</span>
+                                                <span>&#128552;</span>
+                                                <span>&#128561;</span>
+                                                <span>&#128564;</span>
+                                                <span>&#128579;</span>
+                                                <span>&#128580;</span>
+                                                <!--Hand Gestures-->
+                                                <span>&#128070;</span>
+                                                <span>&#128071;</span>
+                                                <span>&#128071;</span>
+                                                <span>&#128073;</span>
+                                                <span>&#128074;</span>
+                                                <span>&#128075;</span>
+                                                <span>&#128076;</span>
+                                                <span>&#128077;</span>
+                                                <span>&#128078;</span>
+                                                <span>&#128079;</span>
+                                                <span>&#128080;</span>
+                                                <span>&#128400;</span>
+                                                <span>&#128170;</span>
+                                                <!--Body Parts-->
+                                                <span>&#128064;</span>
+                                                <span>&#128066;</span>
+                                                <span>&#128067;</span>
+                                                <span>&#128068;</span>
+                                                <span>&#128069;</span>
+                                                <!--Bell-->
+                                                <span>&#128276;</span>
+                                                <span>&#11088;</span>
+                                                <span>&#10060;</span>
+                                                <span>&#10068;</span>
+                                                <span>&#10067;</span>
+                                                <span>&#8987;</span>
+                                                <!--Hearts-->
+                                                <span>&#128147;</span>
+                                                <span>&#128148;</span>
+                                                <span>&#128149;</span>
+                                                <span>&#128150;</span>
+                                                <span>&#128151;</span>
+                                                <span>&#128152;</span>
+                                                <span>&#128153;</span>
+                                                <span>&#128154;</span>
+                                                <span>&#128155;</span>
+                                                <span>&#128156;</span>
+                                                <span>&#128157;</span>
+                                                <span>&#128158;</span>
+                                                <span>&#128159;</span>
+                                            </span>
+                                            <input autocomplete="false" name="message" type="text" placeholder="Type your message" required>
+                                        </div>
+                                        <div>
+                                            <button type="submit" class="microphone-2"><i class="fal fa-paper-plane fa-2x text-white"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div> <!-- ./transparent-chat-field-->
+                        </div>
+                        <div class="tab-pane fade active show" id="tbTwo" role="tabpanel" aria-labelledby="tbTwo-tab">
+                            <div class="tb-content-wrap">
+                                <div class="student-table-title">
+                                    <p>Student Name</p>
+                                    <p>Action</p>
+                                </div>
+                                <div class="student-table-wrap">
+                                    <table class="table student-table">
+                                        <tbody></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- ./left-action-wrap -->
+            <div class="middle-main-wrap">
+                <div class="adder-wrapper">
+                    <a href="#" onClick="erase()" class="active">New <span class="del-exits"><i class="fal fa-times"></i></span></a>
+                    <a href="#" class="d-none">Add New <span class="add-new"><i class="fal fa-plus"></i></span></a>
+                    <a href="#" data-toggle="modal" data-target="#join_room_modal" class="float-right start-class" href="#">
+                        Join New Class <span class="add-new"><i class="fal fa-video"></i></span>
+                    </a>
+                    <a href="#" class="float-right end-class d-none" href="#">
+                        End Class <span class="add-new"><i class="fal fa-times"></i></span>
+                    </a>
+                </div>
+                <div class="drawing-field sm-div">
+                    <canvas id="c"></canvas>
+                </div>
+            </div>
+            <div class="right-action-wrap sm-div">
+                <ul class="drawing-tool">
+                    <li><a href="#" data-tool="mouse"><img src="assets/img/d-1.png" alt=""> <span class="tool-name">Mouse</span></a></li>
+                    <li><a href="#" data-tool="pencil"><img src="assets/img/d-2.png" alt=""> <span class="tool-name">Draw</span></a></li>
+                    <li><a href="#" data-tool="text"><img src="assets/img/d-3.png" alt=""> <span class="tool-name">Text</span></a></li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#color_picker">
+                            <img src="assets/img/d-4.png" alt=""> <span class="tool-name">Colour</span>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#" data-tool="shape" data-toggle="modal" data-target="#shape_picker">
+                            <img src="assets/img/d-5.png" alt=""> <span class="tool-name">Shapes</span>
+                        </a>
+                    </li>
+                    <li><a href="#"><img src="assets/img/d-6.png" alt=""> <span class="tool-name">Symbol</span></a></li>
+                    <li><a href="#" data-tool="laser"><img src="assets/img/d-7.png" alt=""> <span class="tool-name">Laser
+                                Pointer</span></a></li>
+                    <li><a href="#" data-tool="eraser"><img src="assets/img/d-8.png" alt=""> <span class="tool-name">Delete</span></a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#ex2"><img src="assets/img/d-9.png" alt=""> <span
+                                class="tool-name">Home work</span></a></li>
+                    <li><a href="#"><img src="assets/img/d-10.png" alt=""> <span class="tool-name">Users</span></a></li>
+                </ul>
+            </div>
+        </div> <!-- ./three-in-grid -->
+    </main>
+
+    <footer class="footer-area">
+        <div class="footer-grid-wrapper">
+            <div class="decorate-icons-wrapper">
+                <a href="#"><img src="assets/img/ic-1.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-2.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-3.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-4.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-5.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-6.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-7.svg" alt=""></a>
+            </div>
+
+            <div class="class-crud-btns">
+                <ul class="crud-btn-list">
+                    <li>
+                        <div class="custom-footer-checkbox">
+                            <input type="checkbox" id="footer-screen" value="screen">
+                            <label for="footer-screen"><i class="fal fa-desktop"></i></label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-footer-checkbox">
+                            <input type="checkbox" id="footer-microphone" value="microphone">
+                            <label for="footer-microphone"><i class="fal fa-microphone"></i></label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="custom-footer-checkbox">
+                            <input type="checkbox" id="footer-camera" value="camera">
+                            <label for="footer-camera"><i class="fal fa-video"></i></label>
+                        </div>
+                    </li>
+                    <li class="d-none"><a href="#" data-toggle="modal" data-target="#ex1"><img src="assets/img/server.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="decorate-icons-wrapper">
+                <a href="#"><img src="assets/img/ic-8.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-9.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-10.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-11.svg" alt=""></a>
+                <a href="#"><img src="assets/img/ic-12.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="medals">
+        <div class="like" id="like"><img src="assets/img/medals/like.png" alt=""></div>
+        <div class="heart" id="heart"><img src="assets/img/medals/heart.png" alt=""></div>
+        <div class="trophy" id="trophy"><img src="assets/img/medals/trophy.png" alt=""></div>
+        <div class="rating" id="rating"><img src="assets/img/medals/medal.png" alt=""></div>
+    </div>
+
+    <!--Response Loading-->
+    <div class="web-response d-none">
+        <div class="message"><i class="fal fa-spin fa-spinner"></i> Joining Class</div>
+    </div>
+
+    <!--Response Alerts-->
+    <div class="web-alert"></div>
+
+    <!-- Jquery Js -->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="./assets/js/vendor/fabric.min.js"></script>
+    <!-- Jquery UI Js -->
+    <script src="assets/js/vendor/jquery-ui.min.js"></script>
+
+
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins Js  -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!-- Main Js -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/whiteboard.js"></script>
+
+    <script src="adapter.js"></script>
+    <script src="kurento-utils.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
